@@ -1,0 +1,18 @@
+---
+site_runtime: NODE_V16
+site_deployment:
+  artifacts:
+    site_config_file: siteConfig.json
+    static_dir: dist
+    function_dir: target
+site_proxy:
+  error_routes: []
+  routes: []
+site_config:
+  classes: []
+  files: []
+  components: []
+  pages:
+    - name: Home
+      props: []
+      components: []
